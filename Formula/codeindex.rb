@@ -1,23 +1,23 @@
 class Codeindex < Formula
   desc "CLI code indexing, MCP search, and LSP lookup for local repositories"
   homepage "https://github.com/Widthdom/CodeIndex"
-  version "1.42.0"
+  version "1.43.0"
   license "FSL-1.1-ALv2"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Widthdom/CodeIndex/releases/download/v1.42.0/CodeIndex-osx-arm64.tar.gz"
-      sha256 "8d71db8e2b4658ae429d5ab50d5ec2c936be02f46b278e501b4e75953a4cf6ed"
+      url "https://github.com/Widthdom/CodeIndex/releases/download/v1.43.0/CodeIndex-osx-arm64.tar.gz"
+      sha256 "804a742423b9104f97c5d761144d53fcf36b804eabe1e6f1248ab15bf1503ec3"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/Widthdom/CodeIndex/releases/download/v1.42.0/CodeIndex-linux-arm64.tar.gz"
-      sha256 "f1e9ddc3dc9d3f85733308892db586e8d2f26a6077c69e205c1149139cfa4eb0"
+      url "https://github.com/Widthdom/CodeIndex/releases/download/v1.43.0/CodeIndex-linux-arm64.tar.gz"
+      sha256 "488a161c70c0f84f9eb043910ffed0e049a47e5d94deb2b74403aef44a036c87"
     else
-      url "https://github.com/Widthdom/CodeIndex/releases/download/v1.42.0/CodeIndex-linux-x64.tar.gz"
-      sha256 "46ec4527a4a0155b12bf7c806f18ac8a930a0eec5d3774268115159ade4d3ea7"
+      url "https://github.com/Widthdom/CodeIndex/releases/download/v1.43.0/CodeIndex-linux-x64.tar.gz"
+      sha256 "a37dd6c83ba020114e5ba1151d5cd07e87ab41d03d55206036deeb07197c13ca"
     end
   end
 
